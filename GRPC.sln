@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{EDE7275E-62BF-4F3C-BBCF-83114CF23A14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proto", "Proto\Proto.csproj", "{A1728035-B380-4A72-834E-F8078101E686}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadlessClient", "HeadlessClient\HeadlessClient.csproj", "{BFDC717E-7683-4D8D-A508-20F9BF670560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE7275E-62BF-4F3C-BBCF-83114CF23A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE7275E-62BF-4F3C-BBCF-83114CF23A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE7275E-62BF-4F3C-BBCF-83114CF23A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE7275E-62BF-4F3C-BBCF-83114CF23A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1728035-B380-4A72-834E-F8078101E686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1728035-B380-4A72-834E-F8078101E686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1728035-B380-4A72-834E-F8078101E686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1728035-B380-4A72-834E-F8078101E686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDC717E-7683-4D8D-A508-20F9BF670560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDC717E-7683-4D8D-A508-20F9BF670560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDC717E-7683-4D8D-A508-20F9BF670560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDC717E-7683-4D8D-A508-20F9BF670560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC3B0438-3172-4E0F-A34E-4B660FE52679}
+	EndGlobalSection
+EndGlobal

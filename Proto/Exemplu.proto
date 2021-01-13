@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+package SomeSimpleEcommerce;
+
+service ShopService{
+	rpc GiveMeTheTime(Empty) returns (TimeResponse) {}
+	rpc ShowChart(CartRequest) returns (CartResponse) {}
+}
+
+message Empty{
+	// E necesar deoarece void/null nu exista in protobuf iar daca definim un empty ne ajuta in viitor in caz ca vrem parametri
+}
+
+message TimeResponse{
+	int32 hour = 1;
+	int32 minute = 2;
+}
+
+message CartRequest{
+	int32 UserId = 1;
+	int64 SessionId = 2;
+}
+
+message CartResponse{
+	float Total = 1;
+	repeated CartItem Items = 3;
+}
+
+message CartItem{
+	int32 ItemID = 1;
+	string ItemName = 2;
+	int32 ItemQuantity = 3;
+}
